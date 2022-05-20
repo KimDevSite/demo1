@@ -1,0 +1,90 @@
+/* mobile */
+@media (max-width: 740px) {
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    .s-mt-16 {
+        margin-top: 16px !important;
+    }
+
+    .s-col-full, 
+    .s-full-width {
+        width: 100% !important;
+    }
+    
+    #main-nav li {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #main-nav {
+        display: block;
+    }
+
+    #main-nav .sub-nav {
+        /*cho submenu về vị trí mặc định*/
+        position: initial;
+        background: #333;
+    }
+
+    #main-nav .sub-nav a {
+        color: white;
+        padding: 5px 41px;
+    }
+
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    /* Khi click vào header không. bị dính với Home */
+    #main-nav>li:first-child {
+        display: inline-block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100% !important;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+}
+
+/* tablet & Mobile */ 
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-list {
+        font-size: 32px;
+    }
+
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+    .text-info {
+        line-height: 2em;
+    }
+
+}
