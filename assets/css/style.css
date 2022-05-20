@@ -241,7 +241,7 @@ Nên đặt câu hỏi:
 
     /* set background cho slider */
    
-    background: url('assets/img/slider/slider1.jpeg') top center / cover no-repeat;
+    background: url('./assets/img/map.jpeg') top center / cover no-repeat;
     
     /* cover là size ảnh*/
 
