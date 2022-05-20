@@ -240,9 +240,9 @@ Nên đặt câu hỏi:
     padding-top: 50%;
 
     /* set background cho slider */
-    /* background: url('./assets/img/slider/slider1.jpeg')  top center / cover no-repeat; */
-    background: url('./assets/img/slider/slider1.jpeg') top center / cover no-repeat;
-    /*background: url('/Project\ The\ band\ -\ W3/assets/img/slider/slider1.jpeg') top center / cover no-repeat; */
+   
+    background: url('/assets/img/slider/slider1.jpeg') top center / cover no-repeat;
+    
     /* cover là size ảnh*/
 
     /* sau khi thêm div text vào banner thì chiều cao của anh bị đẩy thêm, cần thêm position relative cho slide và position absolute cho text để text nhảy lên layer của ảnh */
