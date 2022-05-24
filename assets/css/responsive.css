@@ -67,7 +67,7 @@
     }
 
     .btn-submit-size {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .contact-form .form-control {
