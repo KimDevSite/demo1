@@ -241,8 +241,8 @@ Nên đặt câu hỏi:
 
     /* set background cho slider */
    
- background: url('../assets/img/slider/slider1.jpeg') top center / cover no-repeat;
-    /* background: url('https://kimdevsite.github.io/demo1/assets/img/slider/slider1.jpeg') top center / cover no-repeat; */
+ /* background: url('../assets/img/slider/slider1.jpeg') top center / cover no-repeat; */
+    background: url('https://kimdevsite.github.io/demo1/assets/img/slider/slider1.jpeg') top center / cover no-repeat;
     
     
     /* cover là size ảnh*/
